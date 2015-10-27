@@ -1,5 +1,9 @@
 {
     "require-dev": {
-        "kherge/box": "^2.6"
+        "kherge/box": "^2.6",
+        "phpunit/phpunit": "^4.0"
+    },
+    "autoload": {
+      "psr-4": {"FDJ\\": "src/"}
     }
 }
