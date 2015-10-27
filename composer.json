@@ -5,5 +5,10 @@
     },
     "autoload": {
       "psr-4": {"FDJ\\": "src/"}
-    }
+    },
+    "config":{
+      "github-oauth":{
+        "github.com":"dcae07f8a41865089ef5540cdbc76eaeb1a8b6b8"
+      }
+  }
 }
