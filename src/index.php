@@ -1,9 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: aurelien
- * Date: 27/10/15
- * Time: 14:55
- */
+require_once "vendor/autoload.php";
 
-echo "Hello world";
+
+$people = new \FDJ\Common\People();
+
+echo $people->say("Hello world");
+
