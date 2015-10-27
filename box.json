@@ -1,0 +1,6 @@
+{
+  "files": ["src/index.php"],
+  "main": "src/index.php",
+  "output": "build/hello-world.phar",
+  "stub": true
+}
