@@ -3,5 +3,6 @@
   "directories": ["src", "vendor/composer","vendor/herrera-io"],
   "main": "src/index.php",
   "output": "build/hello-world.phar",
-  "stub": true
+  "stub": true,
+  "git-version": "package_version"
 }
