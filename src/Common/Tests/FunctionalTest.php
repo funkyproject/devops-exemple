@@ -13,8 +13,8 @@ class FunctionalTest extends \PHPUnit_Framework_TestCase
     public function testPharShouldSayHelloWorld()
     {
         $process = new Process("php hello-world.phar", __DIR__.'/../../../build/');
-        var_dump($process->enableOutput());
-        $a = $process->run();
+
+         $process->run();
 
         if($process->isSuccessful()) {
             $this->assertEquals("Hello world", $process->getOutput());

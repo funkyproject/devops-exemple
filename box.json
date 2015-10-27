@@ -1,5 +1,6 @@
 {
-  "files": ["src/index.php"],
+  "files": ["vendor/autoload.php"],
+  "directories": ["src", "vendor/composer","vendor/herrera-io"],
   "main": "src/index.php",
   "output": "build/hello-world.phar",
   "stub": true
